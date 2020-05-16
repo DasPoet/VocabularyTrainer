@@ -11,7 +11,7 @@ This vocabulary trainer was made as an easy tool to help people learn new vocabu
 
 # **Commands**
 
-* The _"END" command:_ the trainer will only consider vocabulary before this marker
+* The _"END" command:_ the trainer will only consider vocabulary before this breakpoint
 
 # **Usage**
 
