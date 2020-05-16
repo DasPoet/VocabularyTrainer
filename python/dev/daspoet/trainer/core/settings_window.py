@@ -1,9 +1,13 @@
+from PyQt5.QtGui import QKeySequence
+from PyQt5.QtWidgets import QShortcut
 from gtts.lang import tts_langs
-# from win32api import GetSystemMetrics as getScreenSize
 
+from python.dev.daspoet.trainer.assets.settings_ui import *
 from python.dev.daspoet.trainer.utils.file_handling import *
 from python.dev.daspoet.trainer.utils.file_handling import get_vocab
-from python.dev.daspoet.trainer.assets.settings_ui import *
+
+
+# from win32api import GetSystemMetrics as getScreenSize
 
 
 class Settings(Ui_MainWindow):
@@ -28,6 +32,7 @@ class Settings(Ui_MainWindow):
         # window.setGeometry((screen_width - window_width) / 2, (screen_height - window_height) / 2,
         #                    window_width, window_height)
         self.setupUi(window)
+        self.window = window
 
         raw_config = get_config(self.config_path)
         self.config_parameters = {
@@ -48,6 +53,9 @@ class Settings(Ui_MainWindow):
 
         self.saveButton.clicked.connect(lambda: self.save())
         self.standardLengthButton.toggled.connect(self.use_standard_length)
+
+        save_shortcut = QShortcut(QKeySequence("Strg+S"), self.window)
+        save_shortcut.activated.connect(self.save)
 
     def save(self):
         """Write the inputs of all entries to the config file.
