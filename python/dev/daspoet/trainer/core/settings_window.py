@@ -1,9 +1,9 @@
 from gtts.lang import tts_langs
 # from win32api import GetSystemMetrics as getScreenSize
 
-from utils.file_handling import *
-from utils.file_handling import get_vocab
-from assets.settings_ui import *
+from python.dev.daspoet.trainer.utils.file_handling import *
+from python.dev.daspoet.trainer.utils.file_handling import get_vocab
+from python.dev.daspoet.trainer.assets.settings_ui import *
 
 
 class Settings(Ui_MainWindow):
