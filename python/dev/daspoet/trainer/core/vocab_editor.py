@@ -1,7 +1,8 @@
 from glob import glob
 
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QVBoxLayout, QLabel
+from PyQt5.QtGui import QKeySequence
+from PyQt5.QtWidgets import QVBoxLayout, QLabel, QShortcut
 # from win32api import GetSystemMetrics as getScreenSize
 
 from python.dev.daspoet.trainer.utils.clickable_label import ClickLabel
@@ -34,6 +35,7 @@ class VocabAPI(Ui_API):
         #                    window_width, window_height)
         self.setupUi(window)
         window.setWindowTitle("Editor - github.com/daspoet")
+        self.window = window
 
         # manual error correction
         self.language1Label.setMinimumWidth(50)
@@ -44,8 +46,20 @@ class VocabAPI(Ui_API):
         self.saveButton.setMinimumWidth(40)
 
         self.addButton.clicked.connect(self.add_vocab)
+        self.addButton.setShortcut(QKeySequence("Return"))
         self.saveButton.clicked.connect(self.save_vocab)
+        self.saveButton.setShortcut(QKeySequence("Ctrl+S"))
         self.deleteButton.clicked.connect(self.delete_vocab)
+        self.deleteButton.setShortcut(QKeySequence.Delete)
+
+        def tab():
+            if self.language1Entry.hasFocus():
+                self.language2Entry.setFocus()
+            elif self.language2Entry.hasFocus():
+                self.language1Entry.setFocus()
+
+        tab_shortcut = QShortcut(QKeySequence("TAB"), self.window)
+        tab_shortcut.activated.connect(tab)
 
         self.vocabList.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
         self.vocabList.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
