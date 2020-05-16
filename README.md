@@ -1,4 +1,4 @@
-This is a vocabulary trainer was made as an easy tool to help people learn new vocabulary
+This is a vocabulary trainer was made as an easy tool to help people learn new vocabulary.
 Check out my other projects on github.com/daspoet
 
 - the END command: a breakpoint after which no further vocabulary is considered by the trainer
