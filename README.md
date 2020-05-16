@@ -1,4 +1,4 @@
-#**VocabularyTrainer**
+# **VocabularyTrainer**
 
 This vocabulary trainer was made as an easy tool to help people learn new vocabulary.
 Check out my other projects on github.com/daspoet
