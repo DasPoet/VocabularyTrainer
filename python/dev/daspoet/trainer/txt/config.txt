@@ -1,0 +1,3 @@
+language 1:German
+language 2:English (UK)
+round length: 1
