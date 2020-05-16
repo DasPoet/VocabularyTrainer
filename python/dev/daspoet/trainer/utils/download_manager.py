@@ -7,7 +7,7 @@ from threading import Thread
 from PyQt5.QtWidgets import QMessageBox
 from gtts import gTTS
 
-from utils.file_handling import clear_directory
+from python.dev.daspoet.trainer.utils.file_handling import clear_directory
 
 
 def sound_from_text(*, text, lang):

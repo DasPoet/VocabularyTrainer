@@ -5,7 +5,7 @@ from pathlib import Path
 
 from PyQt5.QtWidgets import QMessageBox
 
-from utils.vocab import Vocab
+from python.dev.daspoet.trainer.utils.vocab import Vocab
 
 
 def clear_directory(*, path: str, with_warning_dialogue=False):
