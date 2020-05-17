@@ -9,7 +9,7 @@ This vocabulary trainer was made as an easy tool to help people learn new vocabu
 * gtts
 * fpdf
 
-# **Default installation of dependencies**
+# **Default installation (dependencies)**
 
 ```pip
  pip install PyQt5
