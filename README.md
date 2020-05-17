@@ -11,7 +11,7 @@ This vocabulary trainer was made as an easy tool to help people learn new vocabu
 
 # **Default installation (dependencies)**
 
-```pip
+```sh
  pip install PyQt5
  pip install playsound
  pip install gtts
