@@ -3,7 +3,8 @@
 import sys
 
 from PyQt5 import QtWidgets
-from core.vocabulary_window import *
+
+from python.dev.daspoet.trainer.core.vocabulary_window import VocabWindow
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
