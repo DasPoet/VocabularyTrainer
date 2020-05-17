@@ -12,10 +12,10 @@ This vocabulary trainer was made as an easy tool to help people learn new vocabu
 # **Default installation of Dependencies**
 
 ```pip
- * pip install PyQt5
- * pip install playsound
- * pip install gtts
- * pip install fpdf
+ pip install PyQt5
+ pip install playsound
+ pip install gtts
+ pip install fpdf
 ```
 
 # **Commands**
