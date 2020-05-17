@@ -9,6 +9,15 @@ This vocabulary trainer was made as an easy tool to help people learn new vocabu
 * gtts
 * fpdf
 
+# **Default installation of Dependencies**
+
+```pip
+pip install PyQt5
+pip install playsound
+pip install gtts
+pip install fpdf
+```
+
 # **Commands**
 
 * The _"END" command:_ the trainer will only consider vocabulary before this breakpoint
