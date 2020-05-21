@@ -1,4 +1,4 @@
-# **VocabularyTrainer**
+# **vocabulary-trainer**
 
 This vocabulary trainer was made as an easy tool to help people learn new vocabulary. It is meant to be easy to use and to understand. In the following, the usage will be explained, and all necessary dependencies will be laid out.
 
