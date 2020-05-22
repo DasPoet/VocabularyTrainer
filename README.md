@@ -39,3 +39,4 @@ It is meant to be easy to use and to understand.
   * to _add END_, simply right-click on a word and **select "Add END"**
   * to _edit vocabulary for a particular pair of languages_, simply select the desired pair via **the menu on the bottom right**
   * to _change switch between languages_, simply **press the button on the bottom right**
+  * to _add multiple expressions to a word_, simply seperate them by **,**
