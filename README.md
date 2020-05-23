@@ -9,7 +9,7 @@ Note that all links [```below```](#**Features**) point to the implementation of 
 start using the vocabulary trainer by cloning this repository and executing
 [```main.py```](https://github.com/DasPoet/vocabulary-trainer/blob/master/python/dev/daspoet/trainer/main.py).
 
-# **Dependencies (pip)**
+# **Dependencies (working with pip)**
 
 * [```PyQt5```](https://doc.qt.io/qtforpython/#documentation)
 * [```playsound```](https://pypi.org/project/playsound/)
