@@ -3,9 +3,9 @@
 This vocabulary trainer was made as an easy tool to help people learn new vocabulary. 
 It is meant to be easy to use and to understand.
 
-# **Installation**
+# **Getting started**
 
-To install the vocabulary trainer, clone this repository and execute [```main.py```](https://github.com/DasPoet/vocabulary-trainer/blob/master/python/dev/daspoet/trainer/main.py)
+To start using the vocabulary trainer, clone this repository and execute [```main.py```](https://github.com/DasPoet/vocabulary-trainer/blob/master/python/dev/daspoet/trainer/main.py)
 
 # **Dependencies**
 
