@@ -6,7 +6,7 @@ from os import remove
 
 from playsound import playsound
 
-from python.dev.daspoet.trainer.utils.download_manager import *
+from utils.download_manager import *
 
 
 def speak_threaded(*, word, directory, lang):
