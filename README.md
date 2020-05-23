@@ -5,43 +5,53 @@ It is meant to be easy to use and to understand.
 
 # **Getting started**
 
-To start using the vocabulary trainer, clone this repository and execute [```main.py```](https://github.com/DasPoet/vocabulary-trainer/blob/master/python/dev/daspoet/trainer/main.py)
+Note that all links [```below```](#**Features**) point to the implementation of the respective features. To see them in action 
+start using the vocabulary trainer by cloning this repository and executing
+[```main.py```](https://github.com/DasPoet/vocabulary-trainer/blob/master/python/dev/daspoet/trainer/main.py).
 
-# **Dependencies**
+# **Dependencies (pip)**
 
 * PyQt5
 * playsound
 * gtts
 * fpdf
 
-# **Default installation (dependencies)**
+# **Features**
 
-```sh
- pip install PyQt5
- pip install playsound
- pip install gtts
- pip install fpdf
-```
+**Practicing vocabulary**
 
-# **Commands**
+The vocabulary trainer supports a variety - over 75 - different languages. You can **change the languages** you want to learn
+in the [```settings window```](https://github.com/DasPoet/vocabulary-trainer/blob/master/python/dev/daspoet/trainer/core/settings_window.py).
 
-* The _"END" command:_ the trainer will only consider vocabulary before this breakpoint
+Entering the correct translation of a word increases your progress in the current round. After completing one round your
+score advances. The **length** of one round can also be changed in the
+[```settings window```](https://github.com/DasPoet/vocabulary-trainer/blob/master/python/dev/daspoet/trainer/core/settings_window.py).
 
-# **Usage**
+If you just want to rehearse existing vocabulary you can do that in the 
+[```main window```](https://github.com/DasPoet/vocabulary-trainer/blob/master/python/dev/daspoet/trainer/core/vocabulary_window.py).
+It provides two practice modes:
 
-* **The main window**
-  * _random mode:_ words are picked randomly
-  * _linear mode:_ words are picked randomly, but every word will have been tested before a particular word is tested for the second time
-* **The settings window**
-  * _language 1:_ the first language to be tested
-  * _language 2:_ the second language to be tested
-  * _round length:_ the amount of correct answers needed for the score to increase - see the main window
-* **The editor window**
-  * to _add vocabulary_, simply fill the entries and click on the add-button, or **press return**
-  * to _remove vocabulary_, simply select the word you would like to remove and click on the remove-button, or **press del**
-  * to _save changes to a word_, simply click on the save-button, or press **Ctrl+S**
-  * to _add END_, simply right-click on a word and **select "Add END"**
-  * to _edit vocabulary for a particular pair of languages_, simply select the desired pair via **the menu on the bottom right**
-  * to _change switch between languages_, simply **press the button on the bottom right**
-  * to _add multiple expressions to a word_, simply seperate them by "
-  **,**"
+* _**random mode:**_ words are picked at random
+* _**linear mode:**_ words are also picked at random, but every word will have been tested before a particular word is
+                     tested for the second time
+                     
+If you'd like to hear how a particular word is pronounced, click on the sound button below it.
+
+#
+
+**Modifying vocabulary**
+
+To **modify existing vocabulary,** open the 
+[```editor window```](https://github.com/DasPoet/vocabulary-trainer/blob/master/python/dev/daspoet/trainer/core/vocab_editor.py)
+and select the correct pair of languages in the **bottom right** corner of the window.
+
+To **add new vocabulary**, fill the entries and click on the add-button, or **press Return**. Note that you can add
+**multiple expressions** to a word by separating them by ",".
+
+To **remove existing vocabulary**, select the word you'd like to remove and click on the remove-button, or **press Del**.
+
+You can also **make changes to a particular word** by selecting it and changing at least one of the expressions via the 
+entries. Save your changes by clicking on the save-button, or by **pressing Ctrl+S**.
+
+To **limit the range of vocabulary tested**, you can insert the so-called **"END"**-command. The trainer will only consider
+vocabulary up to this breakpoint. You can insert it after any expression by **right-clicking** it and selecting "**Add END**".
