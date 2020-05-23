@@ -3,12 +3,12 @@ from random import choice
 from PyQt5.QtGui import QKeySequence
 from PyQt5.QtWidgets import QFileDialog, QShortcut
 
-from python.dev.daspoet.trainer.utils.download_manager import *
-from python.dev.daspoet.trainer.utils.pdf_handling import *
-from python.dev.daspoet.trainer.utils.tts import speak
-from python.dev.daspoet.trainer.core.settings_window import *
-from python.dev.daspoet.trainer.core.vocab_editor import *
-from python.dev.daspoet.trainer.assets.vocab_ui import *
+from utils.download_manager import *
+from utils.pdf_handling import *
+from utils.tts import speak
+from core.settings_window import *
+from core.vocab_editor import *
+from assets.vocab_ui import *
 
 
 class VocabWindow(Ui_Vokabeltrainer):

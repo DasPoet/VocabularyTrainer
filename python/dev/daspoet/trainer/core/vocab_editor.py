@@ -5,9 +5,9 @@ from PyQt5.QtGui import QKeySequence
 from PyQt5.QtWidgets import QVBoxLayout, QLabel, QShortcut
 # from win32api import GetSystemMetrics as getScreenSize
 
-from python.dev.daspoet.trainer.utils.clickable_label import ClickLabel
-from python.dev.daspoet.trainer.utils.file_handling import *
-from python.dev.daspoet.trainer.assets.editor_ui import *
+from utils.clickable_label import ClickLabel
+from utils.file_handling import *
+from assets.editor_ui import *
 
 
 class VocabAPI(Ui_API):

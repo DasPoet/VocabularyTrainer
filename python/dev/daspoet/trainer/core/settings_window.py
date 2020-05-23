@@ -2,9 +2,9 @@ from PyQt5.QtGui import QKeySequence
 from PyQt5.QtWidgets import QShortcut
 from gtts.lang import tts_langs
 
-from python.dev.daspoet.trainer.assets.settings_ui import *
-from python.dev.daspoet.trainer.utils.file_handling import *
-from python.dev.daspoet.trainer.utils.file_handling import get_vocab
+from assets.settings_ui import *
+from utils.file_handling import *
+from utils.file_handling import get_vocab
 
 
 # from win32api import GetSystemMetrics as getScreenSize
