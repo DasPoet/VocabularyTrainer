@@ -11,10 +11,10 @@ start using the vocabulary trainer by cloning this repository and executing
 
 # **Dependencies (pip)**
 
-* PyQt5
-* playsound
-* gtts
-* fpdf
+* [```PyQt5```](https://doc.qt.io/qtforpython/#documentation)
+* [```playsound```](https://pypi.org/project/playsound/)
+* [```gtts```](https://pypi.org/project/gTTS/)
+* [```fpdf```](https://pypi.org/project/fpdf/)
 
 # **Features**
 
