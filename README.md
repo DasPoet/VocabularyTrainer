@@ -5,7 +5,7 @@ It is meant to be easy to use and to understand.
 
 # **Installation**
 
-To install the vocabulary trainer, clone this repository and execute [```main.py```](https://github.com/daspoet/vocabulary-trainer/python/dev/daspoet/trainer/main.py)
+To install the vocabulary trainer, clone this repository and execute [```main.py```](https://github.com/DasPoet/vocabulary-trainer/blob/master/python/dev/daspoet/trainer/main.py)
 
 # **Dependencies**
 
